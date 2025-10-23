@@ -8,7 +8,7 @@ import Resume from './pages/Resume';
 export default function App() {
   return (
     <BrowserRouter>
-      <Navigation />
+      <Navigation />   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
